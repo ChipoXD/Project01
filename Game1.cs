@@ -40,9 +40,9 @@ public class Game1 : Game
 
     protected override void Update(GameTime gameTime)
     {
-        base.Update(gameTime);
-
         _player.Update(gameTime);
+        _label.Text = $"Player: {_player.Position}";
+        base.Update(gameTime);
     }
 
     protected override void Draw(GameTime gameTime)

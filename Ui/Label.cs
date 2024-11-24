@@ -10,6 +10,7 @@ namespace project01.Ui
         public override Vector2 Position { get; set; } = position;
 
         private readonly SpriteFont _font = font;
+        public string Text = text;
 
         public Color TextColor { get; set; } = Color.Black;
         public override void Update(GameTime gameTime) { }
@@ -18,7 +19,7 @@ namespace project01.Ui
         {
             spriteBatch.DrawString(
                 _font,
-                text,
+                Text,
                 position,
                 TextColor
             );
