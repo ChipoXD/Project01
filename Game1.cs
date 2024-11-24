@@ -25,7 +25,6 @@ public class Game1 : Game
     protected override void Initialize()
     {
         _player = new Player(new Vector2(100, 100), 100);
-        _label = new Label(_font, "Player: (100, 100)", new Vector2(10, 10));
         base.Initialize();
     }
 
@@ -36,6 +35,7 @@ public class Game1 : Game
         Player.LoadContent(Content);
         Bullet.LoadContent(Content);
         _font = Content.Load<SpriteFont>("Fonts/default");
+        _label = new Label(_font, "Player: (100, 100)", new Vector2(10, 10));
     }
 
     protected override void Update(GameTime gameTime)
