@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using project01.Entities;
 using project01.Ui;
+using Project01.Controllers;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Project01;
@@ -35,14 +36,15 @@ public class Game1 : Game
         Player.LoadContent(Content);
         Bullet.LoadContent(Content);
         _font = Content.Load<SpriteFont>("Fonts/default");
-        _label = new Label(_font, "Player: (100, 100)", new Vector2(10, 10));
+        _label = new Label(_font, $"Player: {_player.Position}", new Vector2(10, 10));
     }
 
     protected override void Update(GameTime gameTime)
     {
-        _player.Update(gameTime);
         _label.Text = $"Player: {_player.Position}";
+        _player.Update(gameTime);
         base.Update(gameTime);
+        InputController.Update(gameTime);
     }
 
     protected override void Draw(GameTime gameTime)

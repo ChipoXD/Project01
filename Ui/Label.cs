@@ -20,7 +20,7 @@ namespace project01.Ui
             spriteBatch.DrawString(
                 _font,
                 Text,
-                position,
+                Position,
                 TextColor
             );
         }

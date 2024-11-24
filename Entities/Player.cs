@@ -11,7 +11,6 @@ namespace project01.Entities
 {
         public class Player : BaseEntity
     {
-        private readonly InputController _inputController;
         private float _deltaTime;
         public float Speed { get; set; }
         public override Vector2 Position { get; set; }
@@ -23,7 +22,6 @@ namespace project01.Entities
 
         public Player(Vector2 initialPosition, float initialSpeed)
         {
-            _inputController = new InputController();
             ConfigureControls();
             SetInitialAttributes(initialPosition, initialSpeed);
         }
@@ -53,7 +51,6 @@ namespace project01.Entities
 
             HandleInput();
             Move();
-            _inputController.Update();
             _bullets.ForEach(bullet => bullet.Update(gameTime));
             _bullets.RemoveAll(bullet => bullet.IsExpired);
         }
@@ -63,13 +60,13 @@ namespace project01.Entities
             var keyboardState = Keyboard.GetState();
 
             Direction = new Vector2(
-                (_inputController.IsKeyHeld(_leftKey)  ? -1 : 0) +
-                (_inputController.IsKeyHeld(_rightKey) ?  1 : 0), 
-                (_inputController.IsKeyHeld(_upKey)    ? -1 : 0) +
-                (_inputController.IsKeyHeld(_downKey)  ?  1 : 0)
+                (InputController.IsKeyHeld(_leftKey)  ? -1 : 0) +
+                (InputController.IsKeyHeld(_rightKey) ?  1 : 0), 
+                (InputController.IsKeyHeld(_upKey)    ? -1 : 0) +
+                (InputController.IsKeyHeld(_downKey)  ?  1 : 0)
             );
             
-            if (_inputController.IsKeyPressed(Keys.Space) && Direction != Vector2.Zero)
+            if (InputController.IsKeyPressed(Keys.Space) && Direction != Vector2.Zero)
             {
                 SpawnBullet();
             }
