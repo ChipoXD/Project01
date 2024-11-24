@@ -15,7 +15,7 @@ public class Game1 : Game
     private Label _label;
     private SpriteFont _font;
     private Button _toggleHideButton;
-    private UiManager _uiManager = new UiManager();
+    private readonly UiManager _uiManager = new UiManager();
 
     public Game1()
     {

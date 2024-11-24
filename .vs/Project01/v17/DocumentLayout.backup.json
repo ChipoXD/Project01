@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|c:\\users\\marti\\desktop\\monoprojects\\project01\\ui\\baseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|solutionrelative:ui\\baseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|c:\\users\\marti\\desktop\\monoprojects\\project01\\ui\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|solutionrelative:ui\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|c:\\users\\marti\\desktop\\monoprojects\\project01\\ui\\label.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|solutionrelative:ui\\label.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|c:\\users\\marti\\desktop\\monoprojects\\project01\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|solutionrelative:ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|c:\\users\\marti\\desktop\\monoprojects\\project01\\ui\\baseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|solutionrelative:ui\\baseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|c:\\users\\marti\\desktop\\monoprojects\\project01\\entities\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,6 +41,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|c:\\users\\marti\\desktop\\monoprojects\\project01\\content\\fonts\\default.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|solutionrelative:content\\fonts\\default.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Ui\\UiManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ui\\UiManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "UiManager.cs",
               "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Ui\\UiManager.cs",
               "RelativeDocumentMoniker": "Ui\\UiManager.cs",
@@ -70,25 +70,23 @@
               "RelativeToolTip": "Ui\\UiManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T19:55:04.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T19:55:04.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "BaseUi.cs",
               "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Ui\\BaseUi.cs",
               "RelativeDocumentMoniker": "Ui\\BaseUi.cs",
               "ToolTip": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Ui\\BaseUi.cs",
               "RelativeToolTip": "Ui\\BaseUi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T19:20:28.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T19:20:28.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "InputController.cs",
               "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Controllers\\InputController.cs",
               "RelativeDocumentMoniker": "Controllers\\InputController.cs",
@@ -96,12 +94,11 @@
               "RelativeToolTip": "Controllers\\InputController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:42:06.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T18:42:06.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -109,12 +106,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:30:07.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T18:30:07.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Button.cs",
               "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Ui\\Button.cs",
               "RelativeDocumentMoniker": "Ui\\Button.cs",
@@ -122,12 +118,11 @@
               "RelativeToolTip": "Ui\\Button.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwCkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T13:02:45.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T13:02:45.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Entities\\Player.cs",
               "RelativeDocumentMoniker": "Entities\\Player.cs",
@@ -135,8 +130,7 @@
               "RelativeToolTip": "Entities\\Player.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAkwCwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T12:41:06.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T12:41:06.526Z"
             },
             {
               "$type": "Document",
@@ -144,16 +138,16 @@
               "Title": "Game1.cs",
               "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Game1.cs",
               "RelativeDocumentMoniker": "Game1.cs",
-              "ToolTip": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Game1.cs*",
-              "RelativeToolTip": "Game1.cs*",
-              "ViewState": "AgIAABkAAAAAAAAAAAApwCwAAAAoAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Game1.cs",
+              "RelativeToolTip": "Game1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T12:35:24.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Entities\\Bullet.cs",
               "RelativeDocumentMoniker": "Entities\\Bullet.cs",
@@ -161,12 +155,11 @@
               "RelativeToolTip": "Entities\\Bullet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T12:33:17.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T12:33:17.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Entities\\BaseEntity.cs",
@@ -174,12 +167,11 @@
               "RelativeToolTip": "Entities\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T12:33:14.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T12:33:14.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "default.spritefont",
               "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Content\\Fonts\\default.spritefont",
               "RelativeDocumentMoniker": "Content\\Fonts\\default.spritefont",
@@ -191,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Label.cs",
               "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Ui\\Label.cs",
               "RelativeDocumentMoniker": "Ui\\Label.cs",
@@ -199,8 +191,7 @@
               "RelativeToolTip": "Ui\\Label.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T12:25:44.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T12:25:44.435Z"
             }
           ]
         }
