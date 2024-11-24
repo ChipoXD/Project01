@@ -19,6 +19,11 @@ namespace Project01.Controllers
             _mouseState = Mouse.GetState();
         }
 
+        public static Point MousePosition()
+        {
+            return _mouseState.Position;
+        }
+
         public static bool IsKeyPressed(Keys key)
         {
             return _keyState.IsKeyDown(key) && !_prevKeyState.IsKeyDown(key);

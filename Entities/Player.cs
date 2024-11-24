@@ -3,11 +3,11 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Content;
 using Project01.Controllers;
-using project01.Entities;
+using Project01.Entities;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace project01.Entities
+namespace Project01.Entities
 {
         public class Player : BaseEntity
     {

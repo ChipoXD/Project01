@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using MonoGame.Extended.BitmapFonts;
 
-namespace project01.Ui
+namespace Project01.Ui
 {
     public class Label(SpriteFont font, string text, Vector2 position) : BaseUi
     {

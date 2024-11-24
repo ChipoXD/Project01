@@ -1,7 +1,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace project01.Entities
+namespace Project01.Entities
 {
     public abstract class BaseEntity
     {

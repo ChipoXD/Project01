@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Content;
 using Project01.Controllers;
 using System.Diagnostics;
 
-namespace project01.Entities
+namespace Project01.Entities
 {
     public class Bullet(BaseEntity entity) : BaseEntity
     {

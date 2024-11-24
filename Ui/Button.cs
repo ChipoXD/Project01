@@ -5,15 +5,18 @@ using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using project01.Ui;
+using MonoGame.Extended;
+using Project01.Controllers;
+using Project01.Ui;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Project01.Ui
 {
-    internal class Button( Texture2D texture, Vector2 position ) : BaseUi
+    internal class Button( Rectangle bounds, string text, SpriteFont font) : BaseUi
     {
-        private Texture2D _texture = texture;
-        private Vector2 _position = position;
-        private Rectangle _rectangle = new Rectangle((int)position.X, (int)position.Y, texture.Width, texture.Height);
+        private readonly string _text = text;
+        private readonly SpriteFont _font = font;
+        private Rectangle _bounds = bounds;
         public bool IsHovered { get; private set; }
         public bool IsClicked { get; private set; }
         public Action OnClick { get; set; }
@@ -23,17 +26,31 @@ namespace Project01.Ui
         public override Vector2 Position { get; set; }
         public override void Update(GameTime gameTime)
         {
-            var currentMouseState = Mouse.GetState();
-            var mousePosition = currentMouseState.Position;
+            IsHovered = _bounds.Contains(InputController.MousePosition());
+            IsClicked = IsHovered && InputController.IsLeftClick();
 
-            // Check if mouse is over the button
-            IsHovered = _rectangle.Contains(mousePosition);
-
+            if (IsHovered) OnHovered?.Invoke();
+            if (IsClicked) OnClick?.Invoke();
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            throw new NotImplementedException();
+            spriteBatch.DrawRectangle(_bounds,Color.Gray);
+
+            if (string.IsNullOrEmpty(_text)) return;
+
+            var textSize = _font.MeasureString(_text);
+            var textPosition = new Vector2(
+                _bounds.X + (_bounds.Width - textSize.X) / 2,
+                _bounds.Y + (_bounds.Height - textSize.Y) / 2
+            );
+
+            spriteBatch.DrawString(
+                spriteFont: _font, // The SpriteFont used for the text
+                text: _text,
+                position: textPosition,
+                color: IsHovered ? Color.White : Color.Black
+            );
         }
     }
 }
