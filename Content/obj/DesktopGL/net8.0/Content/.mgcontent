@@ -4,10 +4,12 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Marti/Desktop/Project01/Content/Sprites/bullet.png</File>
-    <File>C:/Users/Marti/Desktop/Project01/Content/Sprites/player.png</File>
+    <File>C:/Users/Marti/Desktop/MonoProjects/Project01/Content/Fonts/default.spritefont</File>
+    <File>C:/Users/Marti/Desktop/MonoProjects/Project01/Content/Sprites/bullet.png</File>
+    <File>C:/Users/Marti/Desktop/MonoProjects/Project01/Content/Sprites/player.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>

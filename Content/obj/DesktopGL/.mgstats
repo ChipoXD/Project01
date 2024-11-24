@@ -1,1 +1,4 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Marti/Desktop/MonoProjects/Project01/Content/Fonts/default.spritefont","C:/Users/Marti/Desktop/MonoProjects/Project01/Content/bin/DesktopGL/Fonts/default.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21538,0,1393356
+"C:/Users/Marti/Desktop/MonoProjects/Project01/Content/Sprites/bullet.png","C:/Users/Marti/Desktop/MonoProjects/Project01/Content/bin/DesktopGL/Sprites/bullet.xnb","TextureProcessor","Texture2DContent",183,485,0,0341482
+"C:/Users/Marti/Desktop/MonoProjects/Project01/Content/Sprites/player.png","C:/Users/Marti/Desktop/MonoProjects/Project01/Content/bin/DesktopGL/Sprites/player.xnb","TextureProcessor","Texture2DContent",164,485,0,0027172

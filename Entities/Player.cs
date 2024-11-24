@@ -7,7 +7,7 @@ using project01.Entities;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Project01.Entities
+namespace project01.Entities
 {
         public class Player : BaseEntity
     {
@@ -16,7 +16,7 @@ namespace Project01.Entities
         public float Speed { get; set; }
         public override Vector2 Position { get; set; }
         public override Vector2 Direction {get; set;}
-        private List<Bullet> _bullets = [];
+        private readonly List<Bullet> _bullets = [];
         private Keys _upKey, _downKey, _leftKey, _rightKey;
         private static Texture2D _sprite;
         public Player() : this(new Vector2(100, 100), 1) { }
@@ -25,7 +25,7 @@ namespace Project01.Entities
         {
             _inputController = new InputController();
             ConfigureControls();
-            SetInitialAtributes(initialPosition, initialSpeed);
+            SetInitialAttributes(initialPosition, initialSpeed);
         }
 
         public void ConfigureControls()
@@ -36,7 +36,7 @@ namespace Project01.Entities
             _rightKey = Keys.D;
         }
         
-        public void SetInitialAtributes(Vector2 position, float speed)
+        public void SetInitialAttributes(Vector2 position, float speed)
         {
             Position = position;
             Speed = speed;
@@ -47,7 +47,7 @@ namespace Project01.Entities
             _sprite = content.Load<Texture2D>("Sprites/player");
         }
 
-        public void Update(GameTime gameTime)
+        public override void Update(GameTime gameTime)
         {
             _deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
 
@@ -85,7 +85,7 @@ namespace Project01.Entities
             _bullets.Add(new Bullet(this));
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public override void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(
                 texture:         _sprite,                  // Texture to draw
@@ -99,7 +99,7 @@ namespace Project01.Entities
                 layerDepth:      0f                        // Draw at default depth
             );
 
-            foreach (Bullet bullet in _bullets)
+            foreach (var bullet in _bullets)
             {
                 bullet.Draw(spriteBatch);
             }

@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|c:\\users\\marti\\desktop\\monoprojects\\project01\\content\\fonts\\default.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|solutionrelative:content\\fonts\\default.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|c:\\users\\marti\\desktop\\monoprojects\\project01\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|c:\\users\\marti\\desktop\\monoprojects\\project01\\ui\\label.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|solutionrelative:ui\\label.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|c:\\users\\marti\\desktop\\monoprojects\\project01\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|solutionrelative:entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|c:\\users\\marti\\desktop\\monoprojects\\project01\\entities\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|solutionrelative:entities\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|c:\\users\\marti\\desktop\\monoprojects\\project01\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBBD5F0-880E-40F1-8208-BE60B7CC25E8}|Project01.csproj|solutionrelative:entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Entities\\Player.cs",
+              "RelativeDocumentMoniker": "Entities\\Player.cs",
+              "ToolTip": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Entities\\Player.cs",
+              "RelativeToolTip": "Entities\\Player.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:41:06.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Game1.cs",
+              "RelativeDocumentMoniker": "Game1.cs",
+              "ToolTip": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Game1.cs",
+              "RelativeToolTip": "Game1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:35:24.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Entities\\Bullet.cs",
+              "RelativeDocumentMoniker": "Entities\\Bullet.cs",
+              "ToolTip": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Entities\\Bullet.cs",
+              "RelativeToolTip": "Entities\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:33:17.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:33:14.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "default.spritefont",
+              "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Content\\Fonts\\default.spritefont",
+              "RelativeDocumentMoniker": "Content\\Fonts\\default.spritefont",
+              "ToolTip": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Content\\Fonts\\default.spritefont",
+              "RelativeToolTip": "Content\\Fonts\\default.spritefont",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T12:30:38.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Label.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Ui\\Label.cs",
+              "RelativeDocumentMoniker": "Ui\\Label.cs",
+              "ToolTip": "C:\\Users\\Marti\\Desktop\\MonoProjects\\Project01\\Ui\\Label.cs",
+              "RelativeToolTip": "Ui\\Label.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:25:44.435Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
